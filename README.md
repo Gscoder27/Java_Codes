@@ -1,5 +1,5 @@
 # Java_Codes
-Here I upload DSA question's solution in java along with multiple approaches optimization and there time complexities.
+Here I upload DSA problem's solution in java along with multiple approaches optimization and there time complexities.
 
 ### 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gscoder27&show_icons=true&theme=tokyonight)

@@ -32,13 +32,9 @@
 | Approach                                     | Time Complexity | Space Complexity       | Description |
 |----------------------------------------------|-----------------|------------------------|-------------|
 | **Brute-force recursion (no memo)**          | O(2^(m+n))      | O(m+n) recursion stack | Pure recursion, exponentially many paths 
-
 | **Recursion + Memoization (Top-Down DP)**    | O(m·n)          | O(m·n) (dp + stack)    | Cache subproblem results to avoid recomputation 
-
 | **Tabulation (Bottom-Up DP)**                | O(m·n)          | O(m·n)                 | Iterative DP building full table row by row 
-
 | **Space-Optimized DP (1D array)**            | O(m·n)          | O(n)                   | Only keep the previous row’s data, reduce memory 
-
 | **In-place DP (modify grid directly)**       | O(m·n)          | O(1)                   | Overwrite input grid to save space, ideal for 
 
 

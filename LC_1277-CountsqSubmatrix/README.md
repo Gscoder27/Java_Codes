@@ -46,11 +46,11 @@ Total = 7
 
 ###  Solution Approaches & Complexity
 
-| Approach                          | Time Complexity  | Space Complexity     | Summary |
-|-----------------------------------|------------------|----------------------|---------|
-| **Brute-Force (all sizes)**       | O(m·n·min(m, n)²)| O(1)                 | Check every possible square starting at each cell — inefficient. |
-| **Bottom-Up DP (2D dp array)**    | O(m·n)           | O(m·n)               | `dp[i][j]` stores the max square size ending at `(i, j)` — standard and clear.|
-| **In-Place DP (modify matrix)**   | O(m·n)           | O(1) additional      | Update the input matrix directly to count and accumulate — elegant and space-efficient.|
-| **Space-Optimized (1D DP)**       | O(m·n)           | O(n)                 | Use a rolling array or temporary variable to only store one row — minimal extra memory.|
+| Approach                          | Time Complexity   | Space Complexity     | Summary |
+|-----------------------------------|-------------------|----------------------|---------|
+| **Brute-Force (all sizes)**       | O(m·n·min(m, n)²) | O(1)                 | Check every possible square starting at each cell — inefficient. |
+| **Bottom-Up DP (2D dp array)**    | O(m·n)            | O(m·n)               | `dp[i][j]` stores the max square size ending at `(i, j)` — standard and clear.|
+| **In-Place DP (modify matrix)**   | O(m·n)            | O(1) additional      | Update the input matrix directly to count and accumulate — elegant and space-efficient.|
+| **Space-Optimized (1D DP)**       | O(m·n)            | O(n)                 | Use a rolling array or temporary variable to only store one row — minimal extra memory.|
 
 ---
